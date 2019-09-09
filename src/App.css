@@ -8,6 +8,11 @@
   pointer-events: none;
 }
 
+body {
+  background-image: url(./portfolio-bg.jpg);
+  background-size: cover;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
