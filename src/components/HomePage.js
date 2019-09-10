@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Header from "./Header";
-// import About from "./About";
+import About from "./About";
 // import Footer from "./Footer";
 // import Projects from "./Projects";
 import "./HomePage.css";
@@ -17,8 +17,8 @@ class HomePage extends React.Component {
         <Navbar />
         <div className="content">
           <Header />
-          {/* <About />
-          <Projects />
+          <About />
+          {/* <Projects />
           <Footer /> */}
         </div>
       </div>
