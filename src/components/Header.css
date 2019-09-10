@@ -13,15 +13,29 @@
 }
 
 .header-text {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-size: 2em;
-  animation: slideDown 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation: fadeIn 6s forwards;
+  z-index: 1;
+}
+
+.header-text-2 {
+  position: relative;
+  font-size: 2em;
+  animation: welcomeTo 9s;
+  z-index: -1;
 }
 
 .arrow {
   font-size: 4em;
   position: absolute;
   transform: translate(-50%, 100%);
-  animation: slideUp 3s, bounce 3s 3s;
+  animation: slideV2 5s, bounce 3s 3s;
   background-color: white;
   border: 2px solid black;
   border-radius: 30%;
@@ -52,13 +66,49 @@
   }
 }
 
-@keyframes slideDown {
+@keyframes fadeIn {
   0% {
-    transform: translateY(-60px);
+    /* transform: translateY(-60px); */
+    opacity: 0;
+  }
+  15% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1
+  }
+  100% {
+    /* transform: translateY(0); */
+    opacity: 0;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+}
+
+@keyframes welcomeTo {
+  0% {
+    /* transform: translateY(-60px); */
+    opacity: 0;
+  }
+  60% {
     opacity: 0;
   }
   100% {
-    transform: translateY(0);
+    /* transform: translateY(0); */
+    opacity: 1;
+  }
+}
+
+@keyframes slideV2 {
+  0% {
+    transform: translate(-50%, 200px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  80% {
+    transform: translate(-50%, 100%);
     opacity: 1;
   }
 }

@@ -5,7 +5,8 @@ export default function Header() {
   return (
     <div className="Header">
       <div className="header-content container">
-        <p className="lead header-text">Welcome to my Portfolio</p>
+        <p className="lead header-text">Hi! I'm Chris</p>
+        <p className="lead header-text-2">Welcome to my Portfolio</p>
         <a href="#about">
           <i className="arrow fa fa-angle-down"></i>
         </a>
