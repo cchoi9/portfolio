@@ -7,7 +7,7 @@ export default function Navigate() {
   return (
     <Navbar className="navbar" bg="black" expand="lg">
       <Navbar.Brand href="#homepage">
-        <p>MY SAMPLE BRAND</p>
+        <img src={require("../assets/chris-5.png")} />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
