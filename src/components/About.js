@@ -6,9 +6,9 @@ export default function About() {
   return (
     <div id="about" className="About text-black py-4">
       <div className="container row w-90 mx-auto p-2 rounded about-content">
-        <div className="col-12 col-lg-6 text-center">
+        <div className="col-12 col-lg-6 text-center mt-1">
           <img
-            className="img-fluid w-sm-20 rounded-circle d-inline-block"
+            className="img-fluid w-sm-50 rounded-circle d-inline-block"
             alt=""
             src={require("../assets/index.png")}
           />

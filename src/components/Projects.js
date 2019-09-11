@@ -1,6 +1,6 @@
 import React from "react";
 import "./Projects.css";
-import { cashMapMockup } from "../assets/images/projects";
+import { cashMapMockup, audioHiveMockup } from "../assets/images/projects";
 
 import {
   reactImg,
@@ -72,7 +72,7 @@ export default function Projects() {
           </p>
         </div>
         <div className="col-12 col-lg-5">
-          <img className="img-fluid" alt="" src={cashMapMockup} />
+          <img className="img-fluid" alt="" src={audioHiveMockup} />
           <div className="row mb-4">
             <div className="mx-auto icon hidden">
               <img src={postgresqlImg} className="icon" />

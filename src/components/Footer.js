@@ -6,15 +6,6 @@ export default function Footer() {
     <div className="Footer w-100 bg-light mt-5">
       <div className="row m-auto">
         <div className="col-4">
-          <a href="https://github.com/cchoi9" target="_blank">
-            <img
-              src="https://img.icons8.com/nolan/64/000000/github.png"
-              className="contact"
-              aria-hidden="true"
-            />
-          </a>
-        </div>
-        <div className="col-4">
           <a href="https://www.linkedin.com/in/chrishchoi/" target="_blank">
             <img
               src="https://img.icons8.com/cute-clipart/64/000000/linkedin.png"
@@ -24,7 +15,16 @@ export default function Footer() {
           </a>
         </div>
         <div className="col-4">
-          <a href="https://gmail.com" target="_blank">
+          <a href="https://github.com/cchoi9" target="_blank">
+            <img
+              src="https://img.icons8.com/nolan/68/000000/github.png"
+              className="contact"
+              aria-hidden="true"
+            />
+          </a>
+        </div>
+        <div className="col-4">
+          <a href="mailto:chc5139@gmail.com">
             <img
               src="https://img.icons8.com/color/64/000000/gmail.png"
               className="contact"

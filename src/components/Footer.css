@@ -5,3 +5,7 @@
   padding: 2.5em;
   margin-top: 2em;
 }
+
+a .contact:hover {
+  color: rgb(226, 226, 226);
+}
