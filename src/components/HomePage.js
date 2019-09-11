@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import Header from "./Header";
 import About from "./About";
-// import Footer from "./Footer";
+import Footer from "./Footer";
 import Projects from "./Projects";
 import "./HomePage.css";
 
@@ -19,7 +19,7 @@ class HomePage extends React.Component {
           <Header />
           <About />
           <Projects />
-          {/* <Footer /> */}
+          <Footer />
         </div>
       </div>
     );

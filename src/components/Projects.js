@@ -38,8 +38,10 @@ export default function Projects() {
             the form of a pie & bar chart to give users a visualization of their
             spending habits.
           </p>
-
-          <div className="row mb-4">
+        </div>
+        <div className="col-12 col-lg-5">
+          <img className="img-fluid" alt="" src={cashMapMockup} />
+          <div className="row mb-4 hidden">
             <div className="mx-auto icon">
               <img src={rnImg} className="icon" />
               <img src={firebaseImg} className="icon" />
@@ -48,16 +50,13 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        <div className="col-12 col-lg-5">
-          <img className="img-fluid" alt="" src={cashMapMockup} />
-        </div>
       </div>
       <div className="row w-75 mx-auto">
         <div className="col-12 col-lg-7 my-auto">
           <p className="display-5 lead project-text2">
             AudioHive{" "}
             <a
-              href="https://github.com/kirby-s-keystones/A-Maze-Thing"
+              href="https://github.com/cchoi9/audiohive"
               className="btn btn-light"
               target="_blank"
             >
@@ -71,18 +70,17 @@ export default function Projects() {
             Ticketmaster. It retrieves and merges scraped data from websites
             regarding concerts happening in the NYC area.
           </p>
-
+        </div>
+        <div className="col-12 col-lg-5">
+          <img className="img-fluid" alt="" src={cashMapMockup} />
           <div className="row mb-4">
-            <div className="mx-auto icon">
+            <div className="mx-auto icon hidden">
               <img src={postgresqlImg} className="icon" />
               <img src={reactImg} className="icon" />
               <img src={nodeImg} className="icon" />
               <img src={bootstrapImg} className="icon" />
             </div>
           </div>
-        </div>
-        <div className="col-12 col-lg-5">
-          <img className="img-fluid" alt="" src={cashMapMockup} />
         </div>
       </div>
     </div>
