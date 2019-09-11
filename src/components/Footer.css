@@ -9,9 +9,10 @@
 
 a .contact {
   transition: transform .2s;
+  height: 50%
 }
 
 a .contact:hover {
   color: rgb(226, 226, 226);
-  transform: scale(1.5);
+  transform: scale(1.3);
 }
