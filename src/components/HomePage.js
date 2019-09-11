@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 import Header from "./Header";
 import About from "./About";
 // import Footer from "./Footer";
-// import Projects from "./Projects";
+import Projects from "./Projects";
 import "./HomePage.css";
 
 class HomePage extends React.Component {
@@ -18,8 +18,8 @@ class HomePage extends React.Component {
         <div className="content">
           <Header />
           <About />
-          {/* <Projects />
-          <Footer /> */}
+          <Projects />
+          {/* <Footer /> */}
         </div>
       </div>
     );

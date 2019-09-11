@@ -1,0 +1,39 @@
+.icon {
+  height: 50%;
+  width: 50%;
+  display: inline-block;
+}
+
+.project-text {
+  display: inline-block;
+  font-size: 2.5em;
+}
+.btn {
+  box-shadow: 2px 3px gray;
+  display: inline-block;
+}
+
+
+.project-text2 {
+  font-size: 2em;
+  text-align: left;
+}
+
+.project-desc {
+  text-align: left;
+}
+
+/* .techStack {
+  text-align: center;
+  padding: 0 0 0.5em 0;
+  position: absolute;
+  align-self: center;
+  justify-content: center;
+} */
+
+.techStack img {
+  width: 2em;
+  max-width: 20%;
+  vertical-align: middle;
+  margin: 0.75em 0.75em;
+}

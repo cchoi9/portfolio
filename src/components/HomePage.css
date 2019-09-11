@@ -5,7 +5,7 @@
 
 body {
   background-image: url(../portfolio-bg.jpg);
-  background-size: cover;
+  background-size: inherit;
   font-family: 'Lato', sans-serif;
 }
 

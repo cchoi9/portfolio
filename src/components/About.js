@@ -14,9 +14,7 @@ export default function About() {
           />
         </div>
         <div className="col-12 col-lg-6 about-right">
-          <h1 className="display-4 about-text">
-            <u>About Me</u>
-          </h1>
+          <h1 className="display-4 about-text">&lt; About /&gt;</h1>
           <br />
           <p className="lead">
             The human body is no different than a complex machine. Before my
