@@ -4,8 +4,14 @@
   height: 10vh;
   padding: 2.5em;
   margin-top: 2em;
+  background-color: rgba(252, 252, 252, 0.482);
+}
+
+a .contact {
+  transition: transform .2s;
 }
 
 a .contact:hover {
   color: rgb(226, 226, 226);
+  transform: scale(1.5);
 }
