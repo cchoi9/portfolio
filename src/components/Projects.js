@@ -75,8 +75,8 @@ export default function Projects() {
           <img className="img-fluid" alt="" src={audioHiveMockup} />
           <div className="row mb-4">
             <div className="mx-auto icon hidden">
-              <img src={postgresqlImg} className="icon" />
               <img src={reactImg} className="icon" />
+              <img src={postgresqlImg} className="icon" />
               <img src={nodeImg} className="icon" />
               <img src={bootstrapImg} className="icon" />
             </div>

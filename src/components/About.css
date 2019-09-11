@@ -19,6 +19,7 @@
   text-align: left;
 }
 
+
 i {
   font-size: 2em;
   height: 0.1em;
@@ -43,18 +44,19 @@ i:hover {
 }
 
 #resume-btn {
-  box-shadow: black 2px 3px;
+  box-shadow: gray 2px 3px;
 }
 #resume-btn i {
-  color: black;
+  color: white;
+  font-size: 1.2em;
 }
 #resume-btn p {
   display: inline-block;
-  color: black;
+  color: white;
   font-size: 0.95em;
   margin: auto 0;
   position: relative;
   top: 50%;
   left: 1%;
-  transform: translateY(-25%);
+  transform: translateY(-15%);
 }
