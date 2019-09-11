@@ -6,20 +6,21 @@
   /* box-shadow: 5px 10px #6d6c6c; */
 }
 
-img.contact {
-  /* height: 2em */
+.contact {
+  height: 2em
 }
 
 .about-right {
-  margin: 4em 0em;
+  margin: 0em 0em;
 }
 
 .about-text {
-  font-size: 2em
+  font-size: 2em;
+  text-align: left;
 }
-.about-right p,
-.about-right i {
+.about-right p, .about-right i {
   color: black;
+  text-align: left;
   font-size: 1.1em;
 }
 .about-right i {
