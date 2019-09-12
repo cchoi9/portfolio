@@ -5,10 +5,10 @@ import Button from "react-bootstrap/Button";
 export default function About() {
   return (
     <div id="about" className="About text-black py-4">
-      <div className="container row mx-auto p-2 rounded about-content">
-        <div className="col-lg-6 mt-1">
+      <div className="container row mx-auto p-2 rounded w-90">
+        <div className="mt-1 col-6">
           <img
-            className="img-fluid w-sm-50 rounded-circle"
+            className="img-fluid w-sm-45 rounded-circle"
             alt=""
             src={require("../assets/index.png")}
           />

@@ -1,7 +1,8 @@
 .About img {
   /* border-radius: 50%; */
   margin-left: 1em;
-  height: 70%;
+  margin-top: 1.5em;
+  height: 55%;
   border-radius: 50%;
   /* box-shadow: 5px 10px #6d6c6c; */
 }
@@ -66,7 +67,12 @@ i:hover {
 
 @media screen and (max-width: 600px) {
   #about img{
-    height: 40%;
+    position: relative;
+    width: 100%;
+    height: 88%;
+    margin-left: 61%;
+    transform: translateX(50%);
+    transform: translateY(-25%);
   }
   #about p {
     font-size: 14px;
@@ -83,12 +89,13 @@ i:hover {
   p.tech {
     text-align: center;
     font-weight: bold;
+    margin-top: -20px;
   }
   #resume-btn {
     margin: auto;
     display: inline-block;
     text-align: center;
-    margin-left: 35%;
+    margin-left: 33%;
   }
 
 }
