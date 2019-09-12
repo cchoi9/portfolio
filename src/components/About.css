@@ -62,11 +62,9 @@ i:hover {
   left: 1%;
   transform: translateY(-15%);
 }
-.btn{
-  float: left;
-}
 
-@media screen and (max-width: 1000px) {
+
+@media screen and (max-width: 600px) {
   #about img{
     height: 40%;
   }

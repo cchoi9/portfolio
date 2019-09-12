@@ -68,7 +68,7 @@ export default function About() {
           <Button
             variant="dark"
             id="resume-btn"
-            className="btn"
+            className="float-left"
             href={require("../assets/Christopher.Choi.pdf")}
             download="Christopher.Choi.pdf"
           >
