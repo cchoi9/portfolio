@@ -1,6 +1,6 @@
 .icon {
-  height: 50%;
-  width: 40%;
+  height: 60%;
+  width: 48%;
   display: inline-block;
 }
 
@@ -15,7 +15,7 @@
 
 
 .project-text2 {
-  font-size: 2em;
+  font-size: 1.8em;
   text-align: left;
 }
 
@@ -27,20 +27,7 @@
 .fader {
   position: absolute;
 }
-.hidden {
-  visibility: visible;
-}
-.hidden:hover{
-  visibility: visible !important;
-}
 
-/* .techStack {
-  text-align: center;
-  padding: 0 0 0.5em 0;
-  position: absolute;
-  align-self: center;
-  justify-content: center;
-} */
 
 .techStack img {
   width: 2em;
@@ -52,4 +39,18 @@
 p {
   font-weight: 500;
   font-style: normal;
+}
+
+@media screen and (max-width: 600px) {
+  projects p {
+    font-family: Raleway;
+    font-weight: bold;
+  }
+  .project-text2 {
+    text-align: center;
+  }
+  .project-desc {
+    font-size: 0.9em;
+    width: 100%;
+  }
 }

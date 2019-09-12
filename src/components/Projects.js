@@ -16,7 +16,7 @@ import {
 
 export default function Projects() {
   return (
-    <div className="mx-auto p-5 my-5" id="projects">
+    <div className="mx-auto my-5" id="projects">
       <h1 className="display-4 project-text mb-4">&lt; Projects /&gt;</h1>
       <div className="row w-75 mx-auto">
         <div className="col-12 col-lg-7 my-auto">
@@ -40,7 +40,7 @@ export default function Projects() {
           </p>
         </div>
         <div className="col-12 col-lg-5">
-          <img className="img-fluid" alt="" src={cashMapMockup} />
+          <img className="img-fluid mockup" alt="" src={cashMapMockup} />
           <div className="row mb-4 hidden">
             <div className="mx-auto icon">
               <img src={rnImg} className="icon" />
@@ -51,7 +51,7 @@ export default function Projects() {
           </div>
         </div>
       </div>
-      <div className="row w-75 mx-auto">
+      <div className="row w-75 mx-auto my-3">
         <div className="col-12 col-lg-7 my-auto">
           <p className="display-5 lead project-text2">
             AudioHive{" "}
@@ -72,7 +72,7 @@ export default function Projects() {
           </p>
         </div>
         <div className="col-12 col-lg-5">
-          <img className="img-fluid" alt="" src={audioHiveMockup} />
+          <img className="img-fluid mockup" alt="" src={audioHiveMockup} />
           <div className="row mb-4">
             <div className="mx-auto icon hidden">
               <img src={reactImg} className="icon" />
