@@ -7,13 +7,16 @@
   background-color: rgba(252, 252, 252, 0.482);
 }
 
-a .contact {
-  transition: transform .2s;
-  height: 50%;
-  width:
+a {
+  max-height: 100%;
 }
 
-a .contact:hover {
+.contact {
+  transition: transform .2s;
+  max-height: 100%;
+}
+
+.contact:hover {
   color: rgb(226, 226, 226);
   transform: scale(1.3);
 }
