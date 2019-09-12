@@ -47,7 +47,7 @@ i:hover {
 }
 
 #resume-btn {
-  box-shadow: gray 2px 3px;
+  box-shadow: rgb(158, 157, 157) 2px 3px;
 }
 #resume-btn i {
   color: black;
@@ -88,13 +88,14 @@ i:hover {
 
   p.tech {
     text-align: center;
+    margin-right: 10px;
     margin-top: -20px;
   }
   #resume-btn {
     margin: auto;
     display: inline-block;
     text-align: center;
-    margin-left: 32%;
+    margin-left: 33%;
   }
 
 }

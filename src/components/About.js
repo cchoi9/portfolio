@@ -27,7 +27,7 @@ export default function About() {
           </p>
           <br />
           <p className="lead mb-1 tech">Front-End</p>
-          <div className="row ml-1 mb-4 mx-auto w-90">
+          <div className="row ml-1 mb-4 mx-auto w-80">
             <div className="mt-0">
               <span className="border border-info px-2 rounded m-1 d-inline-block">
                 <small>React</small>
@@ -44,10 +44,13 @@ export default function About() {
               <span className="border border-info px-2 rounded m-1 d-inline-block">
                 <small>CSS3</small>
               </span>
+              <span className="border border-info px-2 rounded m-1 d-inline-block">
+                <small>Bootstrap</small>
+              </span>
             </div>
           </div>
           <p className="mt-2 mb-1 lead tech">Back-End</p>
-          <div className="row ml-1 mb-4 mx-auto w-90">
+          <div className="row ml-1 mb-4 mx-auto w-80">
             <div className="mt-0">
               <span className="border border-info px-2 rounded m-1 d-inline-block">
                 <small>NodeJS</small>
@@ -63,6 +66,9 @@ export default function About() {
               </span>
               <span className="border border-info px-2 rounded m-1 d-inline-block">
                 <small>Sequelize</small>
+              </span>
+              <span className="border border-info px-2 rounded m-1 d-inline-block">
+                <small>Heroku</small>
               </span>
             </div>
           </div>
