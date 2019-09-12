@@ -9,7 +9,8 @@
 
 a .contact {
   transition: transform .2s;
-  height: 50%
+  height: 50%;
+  width:
 }
 
 a .contact:hover {
