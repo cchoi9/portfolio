@@ -25,6 +25,7 @@ export default function About() {
             team of individuals who drive one another to scale and optimize
             projects every step of the way.{" "}
           </p>
+          <br />
           <p className="lead mb-1 tech">Front-End</p>
           <div className="row ml-1 mb-4 mx-auto w-90">
             <div className="mt-0">
