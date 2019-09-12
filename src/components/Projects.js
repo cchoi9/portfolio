@@ -30,7 +30,7 @@ export default function Projects() {
               <i className="fa fa-github fa-lg" aria-hidden="true"></i> View
             </a>
           </p>
-          <p className="project-desc">
+          <p className="project-desc lead">
             CashMap is a personal-finance mobile app that displays your debit
             card and credit card transactions by gathering data from the Plaid
             API. The Google Maps API display your spending activity based on
@@ -63,7 +63,7 @@ export default function Projects() {
               <i className="fa fa-github fa-lg" aria-hidden="true"></i> View
             </a>
           </p>
-          <p className="project-desc">
+          <p className="project-desc lead">
             AudioHive is webscraping application that uniquely handles requests
             for information based on date, artist, location and venue from
             ticket vendor websites such as Eventbrite, LiveNation, and

@@ -67,7 +67,7 @@ export default function About() {
             </div>
           </div>
           <Button
-            variant="dark"
+            variant="white"
             id="resume-btn"
             className="float-left"
             href={require("../assets/Christopher.Choi.pdf")}
