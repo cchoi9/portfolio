@@ -8,7 +8,7 @@ export default function About() {
       <div className="container row mx-auto p-2 rounded w-90">
         <div className="mt-1 col-6">
           <img
-            className="img-fluid w-sm-45 rounded-circle"
+            className="img-fluid w-sm-45"
             alt=""
             src={require("../assets/index.png")}
           />
