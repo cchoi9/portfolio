@@ -3,7 +3,7 @@ import "./Footer.css";
 
 export default function Footer() {
   return (
-    <div className="Footer w-100 mt-5">
+    <div className="Footer w-100 mt-3 mb-3">
       <div className="row m-auto">
         <div className="col-4 w-75">
           <a href="https://www.linkedin.com/in/chrishchoi/" target="_blank">
