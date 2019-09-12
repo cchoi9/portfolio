@@ -2,10 +2,13 @@
   text-align: center;
 }
 
+#homepage {
+  width: 100%
+}
+
 
 body {
   background-image: url(../portfolio-bg.jpg);
-  background-size: inherit;
   font-family: 'Lato', sans-serif;
 }
 

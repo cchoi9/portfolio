@@ -5,15 +5,15 @@ import Button from "react-bootstrap/Button";
 export default function About() {
   return (
     <div id="about" className="About text-black py-4">
-      <div className="container row w-90 mx-auto p-2 rounded about-content">
-        <div className="col-12 col-lg-6 text-center mt-1">
+      <div className="container row mx-auto p-2 rounded about-content">
+        <div className="col-lg-6 mt-1">
           <img
-            className="img-fluid w-sm-50 rounded-circle d-inline-block"
+            className="img-fluid w-sm-50 rounded-circle"
             alt=""
             src={require("../assets/index.png")}
           />
         </div>
-        <div className="col-12 col-lg-6 about-right">
+        <div className="col-lg-6 about-right">
           <h1 className="display-4 about-text">&lt; About /&gt; </h1>
 
           <br />
@@ -25,42 +25,42 @@ export default function About() {
             team of individuals who drive one another to scale and optimize
             projects every step of the way.{" "}
           </p>
-          <p className="lead mb-1">Front-End</p>
-          <div className="row ml-1">
-            <div className="ml-0">
-              <span className="border border-info px-2 rounded mx-1">
+          <p className="lead mb-1 tech">Front-End</p>
+          <div className="row ml-1 mb-4 mx-auto w-90">
+            <div className="mt-0">
+              <span className="border border-info px-2 rounded m-1 d-inline-block">
                 <small>React</small>
               </span>
-              <span className="border border-info px-2 rounded mx-1">
+              <span className="border border-info px-2 rounded m-1 d-inline-block">
                 <small>React Native</small>
               </span>
-              <span className="border border-info px-2 rounded mx-1">
+              <span className="border border-info px-2 rounded m-1 d-inline-block">
                 <small>Redux</small>
               </span>
-              <span className="border border-info px-2 rounded mx-1">
+              <span className="border border-info px-2 rounded m-1 d-inline-block">
                 <small>HTML5</small>
               </span>
-              <span className="border border-info px-2 rounded mx-1">
+              <span className="border border-info px-2 rounded m-1 d-inline-block">
                 <small>CSS3</small>
               </span>
             </div>
           </div>
-          <p className="mt-2 mb-1 lead">Back-End</p>
-          <div className="row ml-1 mb-4">
+          <p className="mt-2 mb-1 lead tech">Back-End</p>
+          <div className="row ml-1 mb-4 mx-auto w-90">
             <div className="mt-0">
-              <span className="border border-info px-2 rounded mx-1">
+              <span className="border border-info px-2 rounded m-1 d-inline-block">
                 <small>NodeJS</small>
               </span>
-              <span className="border border-info px-2 rounded mx-1">
+              <span className="border border-info px-2 rounded m-1 d-inline-block">
                 <small>Express</small>
               </span>
-              <span className="border border-info px-2 rounded mx-1">
+              <span className="border border-info px-2 rounded m-1 d-inline-block">
                 <small>PostgreSQL</small>
               </span>
-              <span className="border border-info px-2 rounded mx-1">
+              <span className="border border-info px-2 rounded m-1 d-inline-block">
                 <small>Firebase</small>
               </span>
-              <span className="border border-info px-2 rounded mx-1">
+              <span className="border border-info px-2 rounded m-1 d-inline-block">
                 <small>Sequelize</small>
               </span>
             </div>
@@ -68,7 +68,7 @@ export default function About() {
           <Button
             variant="dark"
             id="resume-btn"
-            className="float-left"
+            className="btn"
             href={require("../assets/Christopher.Choi.pdf")}
             download="Christopher.Choi.pdf"
           >

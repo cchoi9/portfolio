@@ -21,7 +21,6 @@
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation: fadeIn 5s forwards;
-  z-index: 1;
 }
 
 .header-text-2 {

@@ -6,6 +6,8 @@
   /* box-shadow: 5px 10px #6d6c6c; */
 }
 
+
+
 .contact {
   height: 2em
 }
@@ -59,4 +61,35 @@ i:hover {
   top: 50%;
   left: 1%;
   transform: translateY(-15%);
+}
+.btn{
+  float: left;
+}
+
+@media screen and (max-width: 1000px) {
+  #about img{
+    height: 40%;
+  }
+  #about p {
+    font-size: 14px;
+  }
+
+  #about p.display-4 {
+    font-size: 2em;
+  }
+  #about h1 {
+    text-align: center;
+  }
+
+  p.tech {
+    text-align: center;
+    font-weight: bold;
+  }
+  #resume-btn {
+    margin: auto;
+    display: inline-block;
+    text-align: center;
+    margin-left: 35%;
+  }
+
 }
