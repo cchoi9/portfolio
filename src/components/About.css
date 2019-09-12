@@ -50,12 +50,12 @@ i:hover {
   box-shadow: gray 2px 3px;
 }
 #resume-btn i {
-  color: white;
+  color: black;
   font-size: 1.2em;
 }
 #resume-btn p {
   display: inline-block;
-  color: white;
+  color: black;
   font-size: 0.95em;
   margin: auto 0;
   position: relative;
@@ -88,14 +88,13 @@ i:hover {
 
   p.tech {
     text-align: center;
-    font-weight: bold;
     margin-top: -20px;
   }
   #resume-btn {
     margin: auto;
     display: inline-block;
     text-align: center;
-    margin-left: 34%;
+    margin-left: 32%;
   }
 
 }

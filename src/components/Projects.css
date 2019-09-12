@@ -42,9 +42,9 @@ p {
 }
 
 @media screen and (max-width: 600px) {
-  projects p {
-    font-family: Raleway;
-    font-weight: bold;
+  project p {
+    /* font-family: lead; */
+    /* font-weight: bold; */
   }
   .project-text2 {
     text-align: center;
