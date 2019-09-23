@@ -77,7 +77,7 @@ export default function About() {
             id="resume-btn"
             className="float-left"
             href={require("../assets/Christopher.Choi.pdf")}
-            download="Christopher.Choi.pdf"
+            target="_blank"
           >
             <i className="fa fa-download" aria-hidden="true"></i>
             {"   "}
