@@ -15,3 +15,4 @@ export { default as api3Img } from "./api3.png";
 export { default as murexImg } from "./murex.jpg";
 export { default as rnImg } from "./reactnative.png";
 export { default as plaidImg } from "./plaid.png";
+export { default as puppeteer } from "./puppeteer.png";

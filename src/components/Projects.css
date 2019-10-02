@@ -1,6 +1,11 @@
 .icon {
-  height: 60%;
+  height: 50%;
   width: 48%;
+  display: inline-block;
+}
+
+.icon2 {
+  width: 21%;
   display: inline-block;
 }
 
