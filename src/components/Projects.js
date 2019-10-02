@@ -67,9 +67,9 @@ export default function Projects() {
           <p className="project-desc lead">
             AudioHive is webscraping application that uniquely handles requests
             for information based on date, artist, location and venue from
-            ticket vendor websites such as Eventbrite, LiveNation, and
-            Ticketmaster. It retrieves and merges scraped data from websites
-            regarding concerts happening in the NYC area.
+            ticket vendor websites such as Eventbrite & LiveNation. It retrieves
+            and displays scraped data from websites regarding concerts happening
+            in the NYC area.
           </p>
         </div>
         <div className="col-12 col-lg-5">
