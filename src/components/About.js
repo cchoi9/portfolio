@@ -12,6 +12,18 @@ export default function About() {
             alt=""
             src={require("../assets/index.png")}
           />
+          <br />
+          <Button
+            variant="white"
+            id="browser-resume-btn"
+            className="btn-outline-info mt-2"
+            href={require("../assets/Christopher.Choi.pdf")}
+            target="_blank"
+          >
+            <i className="fa fa-download" aria-hidden="true"></i>
+            {"   "}
+            <p>Resume</p>
+          </Button>
         </div>
         <div className="col-lg-6 about-right">
           <h1 className="display-4 about-text">&lt; About /&gt; </h1>
@@ -74,7 +86,7 @@ export default function About() {
           </div>
           <Button
             variant="white"
-            id="resume-btn"
+            id="mobile-resume-btn"
             className="float-left"
             href={require("../assets/Christopher.Choi.pdf")}
             target="_blank"

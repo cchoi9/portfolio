@@ -2,7 +2,7 @@
   /* border-radius: 50%; */
   margin-left: 1em;
   margin-top: 1.5em;
-  height: 55%;
+  height: 50%;
   border-radius: 100%;
   /* box-shadow: 5px 10px #6d6c6c; */
 }
@@ -46,22 +46,33 @@ i:hover {
   color: rgb(226, 226, 226);
 }
 
-#resume-btn {
+.btn-outline-info {
+  color: black;
+}
+.btn-outline-info:hover {
+  color: white;
+}
+
+#browser-resume-btn {
   box-shadow: rgb(158, 157, 157) 2px 3px;
 }
-#resume-btn i {
-  color: black;
+
+#browser-resume-btn i {
   font-size: 1.2em;
 }
-#resume-btn p {
+
+#browser-resume-btn p {
   display: inline-block;
-  color: black;
   font-size: 0.95em;
   margin: auto 0;
   position: relative;
   top: 50%;
   left: 1%;
   transform: translateY(-15%);
+}
+
+#mobile-resume-btn {
+  display: none;
 }
 
 
@@ -91,11 +102,29 @@ i:hover {
     margin-right: 10px;
     margin-top: -20px;
   }
-  #resume-btn {
+  #browser-resume-btn{
+    display: none;
+  }
+  #mobile-resume-btn i {
+    color: black;
+    font-size: 1.2em;
+  }
+  #mobile-resume-btn p {
+    display: inline-block;
+    color: black;
+    font-size: 0.95em;
+    margin: auto 0;
+    position: relative;
+    top: 50%;
+    left: 1%;
+    transform: translateY(-15%);
+  }
+  #mobile-resume-btn {
     margin: auto;
     display: inline-block;
     text-align: center;
     margin-left: 33%;
   }
+
 
 }
